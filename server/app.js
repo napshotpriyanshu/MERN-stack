@@ -12,6 +12,7 @@ connectDB();
 
 
 app.use(require('./router/routeGET'));
+app.use(require('./router/combineRoute'));
 
 app.listen(4000,function(){
     console.log("Server is running on port 4000");
